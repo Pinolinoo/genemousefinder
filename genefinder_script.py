@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import functions as ft
 
-genename = "Snca" # type gene name here, first letter capital, rest small
+genename = "Dyrk1a" # type gene name here, first letter capital, rest small
 
 df_small, ages, classes = ft.load_data(genename) #load data from loom file (http://mousebrain.org/downloads.html)
 
